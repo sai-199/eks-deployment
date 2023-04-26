@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.87.226.232:8085/saitech/#browse/browse:maven-releases/</url>
+	      <name>maven-release</name>
+	      <url>http://3.87.226.232:8085/saitech/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.87.226.232:8085/saitech/#browse/browse:maven-snapshots/</url>
+	      <name>maven-snapshots</name>
+	      <url>http://3.87.226.232:8085/saitech/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
