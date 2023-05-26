@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.211.62.20:9000/</sonar.host.url>
+		<sonar.host.url>http://54.196.170.161:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin1</sonar.password> 
+		<sonar.password>bp</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>maven-release</name>
-	      <url>http://3.87.226.232:8085/saitech/repository/maven-releases/</url>
+	      <name>trellix-release</name>
+	      <url>http://3.83.29.175:8081/repository/trellix-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>maven-snapshots</name>
-	      <url>http://3.87.226.232:8085/saitech/repository/maven-snapshots/</url>
+	      <name>trellix-snapshot</name>
+	      <url>http://3.83.29.175:8081/repository/trellix-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
